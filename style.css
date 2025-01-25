@@ -1,3 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #FCFAF6;
+}
+
+
+/* Resources Page Links Styling */
 .Resource-Links a {
     display: block;
     text-decoration: none;
@@ -14,11 +32,41 @@
     color: white;
 }
 
-.Mission1 {
-    background-color: #bbd0f2;
-    color: black
+/* Style the Resource-Header */
+.Resource-Header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
-.navbar li {
-    
+/* Style the h1 inside Resource-Header */
+.Resource-Header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #004c3f; /* Dark green */
+    text-transform: uppercase; /* Optional: make it uppercase */
+    letter-spacing: 2px; /* Add letter spacing for a cleaner look */
+    border-bottom: 2px solid #004c3f; /* Add an underline */
+    padding-bottom: 10px;
 }
+
+/* About us styling*/
+
+.Mission1 {
+    display: flex; /* or inline-flex */
+    background-color: #bbd0f2;
+    color: black;
+}
+
+
+
+
+/* Navbar styling */
+
+nav {
+    position: fixed;
+    background-color: #D8D5DB;
+    top:0;
+    width: 100%;
+}
+
