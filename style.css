@@ -51,11 +51,40 @@ body {
 }
 
 /* About us styling*/
+.MissionsDiv {
+    padding-top: 60px;
+}
 
-.Mission1 {
-    display: flex; /* or inline-flex */
-    background-color: #bbd0f2;
-    color: black;
+.Missions { 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    flex-direction: column; 
+    gap: 20px; 
+    width: 100%;
+    max-width: 800px;
+    padding: 20px; 
+}
+    
+.Mission1, .Mission2, .Mission3, .Why {
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: 10px auto; 
+}
+
+.h1aboutus{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+     width: 100%;
 }
 
 
@@ -68,5 +97,48 @@ nav {
     background-color: #D8D5DB;
     top:0;
     width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: none;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+} 
+
+.logo {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: black;
+}
+
+.hamburger {
+    all: unset;
+    cursor: pointer;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: black;
+    display: inline;
+}
+
+
+
+@media (min-width: 768px) {
+    /* nav ul {
+        display: flex;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 .25rem;
+    } */
 }
 
