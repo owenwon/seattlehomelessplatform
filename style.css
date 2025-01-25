@@ -141,4 +141,67 @@ nav ul {
         margin: 0 .25rem;
     } */
 }
+/* Container for all cards */
+/* Container for all cards */
+.card-container {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Add space between cards */
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+    align-items: center; /* Center cards horizontally */
+}
 
+/* Individual Card Styles */
+.card {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Limit the width */
+    width: 100%; /* Make the card responsive */
+    padding: 15px;
+    transition: transform 0.2s ease-in-out; /* Add hover effect */
+    text-align: center; /* Center align content */
+}
+
+/* Hover effect for cards */
+.card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    border-color: #004c3f; /* Change border color on hover */
+}
+
+/* Card Title */
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #004c3f; /* Dark green */
+    margin-bottom: 10px;
+}
+
+/* Card Image */
+.card-image {
+    width: 100%; /* Full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: rounded corners for images */
+    margin-bottom: 15px;
+}
+
+/* Card Description */
+.card-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Dark gray text */
+    text-align: justify; /* Align description text */
+}
+
+/* Mobile Responsive (Optional) */
+@media (max-width: 768px) {
+    .card-container {
+        padding: 10px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+}
