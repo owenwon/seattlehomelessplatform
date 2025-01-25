@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+:root {
+    --dark-green: #004c3f;
+    --light-blue: #d9f3f5;
+    --dark-blue: #002f5f;
+}
 
 html, body {
     height: 100%;
@@ -204,4 +209,64 @@ nav ul {
     .card {
         padding: 10px;
     }
+}
+/* Title for Spotlight Section */
+.spotlight-title {
+    text-align: center; /* Center the text */
+    font-size: 36px; /* Larger font for prominence */
+    font-weight: bold; /* Make the title stand out */
+    color: var(--dark-blue); /* Dark blue text color */
+    margin: 20px auto; /* Add space above and below */
+    text-transform: uppercase; /* Make the title all uppercase */
+    letter-spacing: 2px; /* Add some spacing between letters */
+    display: inline-block; /* Ensure styling applies properly */
+    border-bottom: 3px solid var(--light-blue); /* Add an underline effect */
+    padding-bottom: 10px; /* Add spacing between text and underline */
+}
+/* Spotlight Section */
+.spotlight {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center content horizontally */
+    background-color: var(--light-blue); /* Light blue background */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px; /* Limit the width for centering */
+    text-align: center; /* Center text content */
+}
+
+/* Spotlight Image */
+.spotlight-image {
+    width: 80%; /* Make image responsive */
+    max-width: 300px; /* Limit image size */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Spotlight Content */
+.spotlight-content {
+    max-width: 90%; /* Content width */
+}
+
+/* Spotlight Name */
+.spotlight-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--dark-green);
+    margin-bottom: 15px;
+}
+
+/* Spotlight Description */
+.spotlight-description {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+}
+main {
+    text-align: center; /* Center all child elements, including the title */
+    padding-top: 70px; /* Prevent overlap with the fixed navbar */
 }
