@@ -70,16 +70,20 @@ body {
 
 .CommunityInfo {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
     color: #004c3f;
-    background-color: #e0f7f4;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
 /* About us styling*/
 .MissionsDiv {
     padding-top: 60px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
 }
 
 .Missions { 
@@ -89,7 +93,6 @@ body {
     flex-direction: column; 
     gap: 20px; 
     width: 100%;
-    max-width: 800px;
     padding: 20px; 
 }
     
@@ -121,7 +124,7 @@ body {
 
 nav {
     position: fixed;
-    background-color: #9df2b5;
+    background-color: #1a8328;
     top:0;
     width: 100%;
     height: 60px;
@@ -162,6 +165,10 @@ nav ul {
 /* Container for all cards */
 .indexdiv{
     padding-top: 100px;
+}
+
+.feeddiv {
+    padding-top: 60px;
 }
 
 .card-container {
@@ -233,6 +240,11 @@ nav ul {
     nav ul li {
         display: inline;
         margin: 0 .25rem;
+        text-decoration: none;
+    }
+
+    nav ul li a {
+        text-decoration: none;
     }
 
     .hamburger {
