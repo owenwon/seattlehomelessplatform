@@ -1,0 +1,24 @@
+.Resource-Links a {
+    display: block;
+    text-decoration: none;
+    color: #004c3f;
+    background-color: #e0f7f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.Resource-Links a:hover {
+    background-color: #004c3f;
+    color: white;
+}
+
+.Mission1 {
+    background-color: #bbd0f2;
+    color: black
+}
+
+.navbar li {
+    
+}
