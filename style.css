@@ -41,7 +41,7 @@ body {
     text-decoration: none;
     text-align:center;
     color: #004c3f;
-    background-color: #e0f7f4;
+    background-color: #eefdf0;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -69,17 +69,26 @@ body {
     color: #004c3f; /* Dark green */
     text-transform: uppercase; /* Optional: make it uppercase */
     letter-spacing: 2px; /* Add letter spacing for a cleaner look */
-    border-bottom: 2px solid #004c3f; /* Add an underline */
     padding-bottom: 10px;
 }
 
 .CommunityInfo {
+    display: block;
+    text-decoration: none;
+    text-align:center;
+    color: #004c3f;
+    background-color: #eefdf0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
     color: #004c3f;
     padding-left: 30px;
     padding-right: 30px;
+    max-width: 60%; /* Added to limit the width */
+    margin: 0 auto 10px auto; /* Center the button */
 }
 
 
@@ -105,7 +114,7 @@ body {
     justify-content: center; 
     align-items: center; 
     text-align: center;
-    background-color: #ccf0d1; 
+    background-color: #eefdf0; 
     padding: 20px; 
     border-radius: 10px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -181,7 +190,8 @@ nav ul {
     flex-direction: column; /* Stack items vertically */
     gap: 20px; /* Add space between cards */
     padding: 20px;
-    background-color: #f5f5f5; /* Light gray background */
+    /*background-color: #f5f5f5; */ /*Light gray background */
+    background-color: none;
     align-items: center; /* Center cards horizontally */
 }
 
@@ -321,7 +331,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    background-image: url('background.jpg'); /* Path to your image */
+    background-image: url('./background.jpg'); /* Path to your image */
     background-size: cover; /* Ensure the image covers the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
