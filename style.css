@@ -331,7 +331,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    background-image: url('./background.jpg'); /* Path to your image */
+    background-image: url('./imgs/background.jpg'); /* Path to your image */
     background-size: cover; /* Ensure the image covers the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
