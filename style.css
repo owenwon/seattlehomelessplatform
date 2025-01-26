@@ -354,3 +354,13 @@ body::before {
     background-color: rgba(255, 255, 255, 0.7); /* White overlay with 70% transparency */
     z-index: -1; /* Place the overlay behind all content */
 }
+
+/* for plus sign on feed*/
+.newimage img{
+    padding-top: 60px;
+    position:fixed;
+    top: 10px; 
+    left: 10px; 
+    width: 50px; 
+    height: auto; 
+}
